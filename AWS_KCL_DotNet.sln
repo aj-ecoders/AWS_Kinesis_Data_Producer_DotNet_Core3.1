@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Amazon.Kinesis.ClientLibrary", "Amazon.Kinesis.ClientLibrary", "{6A5832F9-5282-4942-AB13-0F1D4D391BB2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleProducer", "SampleProducer\SampleProducer.csproj", "{72E5E459-5045-4785-BD53-FE93EF10ECF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72E5E459-5045-4785-BD53-FE93EF10ECF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E5E459-5045-4785-BD53-FE93EF10ECF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E5E459-5045-4785-BD53-FE93EF10ECF7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{72E5E459-5045-4785-BD53-FE93EF10ECF7}.Debug|x86.Build.0 = Debug|Any CPU
+		{72E5E459-5045-4785-BD53-FE93EF10ECF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E5E459-5045-4785-BD53-FE93EF10ECF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72E5E459-5045-4785-BD53-FE93EF10ECF7}.Release|x86.ActiveCfg = Release|Any CPU
+		{72E5E459-5045-4785-BD53-FE93EF10ECF7}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{72E5E459-5045-4785-BD53-FE93EF10ECF7} = {6A5832F9-5282-4942-AB13-0F1D4D391BB2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BEA84E0-80AB-46A9-BBA5-0542ABAE7140}
+	EndGlobalSection
+EndGlobal
